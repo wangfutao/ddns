@@ -1,0 +1,15 @@
+{
+    "interval": 60000,
+    "ddns": [
+        {
+            "name": "dynv6",
+            "api": "http://dynv6.com/api/update",
+            "method": "GET",
+            "ipFieldName": "ipv6",
+            "params": {
+                "hostname":"your host",
+                "token":"your token"
+            }
+        }
+    ]
+}
